@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.home {
+    margin: 1rem;
+}
+nav img {
+    width: 100px;
+}
+nav {
+background-color: darkgrey;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+nav a {
+
+    text-decoration:none;
+    font-size: 1.6rem;
+    color: white;
+}
+
+nav .link a {
+    margin: 1rem;
+}
+
+.home_img {
+    width:80vw ;
+    height: 75vh;
+    background-image: url("img/Bauernhoftag.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    width: 20vw;
+    height: 20vh;
+    border-radius: 50px;
+    border: 4px solid red
+}
+.farmer {
+    background-image: url("img/gettyimages-904559680-612x612.jpg");
+    background-size: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+.cow {
+    background-image: url("./img/cow.jpg");
+    background-size: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+@media screen and (min-width:800px) {
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
